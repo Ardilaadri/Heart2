@@ -63,9 +63,17 @@ div{border-radius: 50%;
     left: -45px;
 }
 #right{
-    background-color: #8d99ae;
+    background-color: black;
     top: -66px;
     left: 40px;
+    z-index: 5;
+}
+
+.background{
+        background-color: white;
+        top: -66px;
+        left: 40px;
+        z-index: 1;
 }
 
 button{
